@@ -8,8 +8,13 @@ h1,p {
 
 .First-div {
     background-color: #5200FF;
-    /* text-align: center; */
-    display: inline-block;
+    padding-top: 5.6rem;
+    padding-left: 5.4rem;
+    padding-right: 4.1rem;
+    padding-bottom: 4.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 h1 {
@@ -22,4 +27,15 @@ h1 {
 p {
     color: #fff;
     font-size: 1.4rem;
+}
+
+.second-div {
+    background-color: aquamarine;
+
+}
+
+
+input {
+    display: block;
+    width: 100%;
 }
