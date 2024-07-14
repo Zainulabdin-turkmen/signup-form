@@ -5,3 +5,7 @@ body {
 h1,p {
     margin: 0;
 }
+
+.First-div {
+    background-color: #5200FF;
+}
