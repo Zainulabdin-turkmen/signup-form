@@ -9,6 +9,7 @@ h1,p {
 .First-div {
     background-color: #5200FF;
     /* text-align: center; */
+    display: inline-block;
 }
 
 h1 {
