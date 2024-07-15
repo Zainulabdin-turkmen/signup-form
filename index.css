@@ -13,7 +13,7 @@ h1,p {
     padding-right: 4.1rem;
     padding-bottom: 4.1rem;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* gap: 4rem; */
 }
 
