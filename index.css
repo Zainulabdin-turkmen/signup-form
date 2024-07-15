@@ -45,7 +45,7 @@ input {
 
 form {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 button {    
     /* margin-top: 5.6rem; */
