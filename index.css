@@ -57,7 +57,7 @@ button {
     font-size: 1.1rem;
     font-weight: 700;
     margin-bottom: 50px;
-    /* align-self: self-end; */
+    align-self: self-end;
 }
 
 
