@@ -65,7 +65,7 @@ button {
     display: flex;
     gap: 8px;
     flex-direction: column;
-    /* margin-bottom: 23px; */
+    margin-bottom: 23px;
 }
 
 .Email-input {
