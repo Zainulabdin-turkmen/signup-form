@@ -71,7 +71,7 @@ button {
 .Email-input {
     display: flex;
     gap: 8px;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 /* 
 @media only  screen and (min-width: 850px) {
