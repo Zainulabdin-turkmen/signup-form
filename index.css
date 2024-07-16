@@ -69,7 +69,7 @@ button {
 }
 
 .Email-input {
-    /* display: flex; */
+    display: flex;
     /* gap: 8px; */
     /* flex-direction: column; */
 }
