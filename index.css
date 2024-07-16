@@ -64,7 +64,7 @@ button {
 .Name-input {
     display: flex;
     gap: 8px;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* margin-bottom: 23px; */
 }
 
