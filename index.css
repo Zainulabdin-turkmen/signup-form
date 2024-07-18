@@ -78,7 +78,7 @@ button {
     main {
         display: flex;
         flex-direction: row;
-        /* gap: 3rem; */
+        gap: 3rem;
     }
     input {
         /* width: 100%; */
