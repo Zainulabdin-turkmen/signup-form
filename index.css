@@ -78,5 +78,14 @@ button {
     main {
         display: flex;
         flex-direction: row;
+        /* gap: 3rem; */
+    }
+    input {
+        /* width: 100%; */
+        /* display: flex; */
+    }
+ 
+    .second-div {
+        /* width: 20%; */
     }
 }
