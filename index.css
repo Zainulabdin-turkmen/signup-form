@@ -82,7 +82,7 @@ button {
     }
     input {
         width: 100%;
-        /* display: flex; */
+        display: flex;
     }
  
     .second-div {
