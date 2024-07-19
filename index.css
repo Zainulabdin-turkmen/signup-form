@@ -6,34 +6,55 @@ h1,p {
     margin: 0;
 }
 
-.First-div {
-    background-color: #5200FF;
-    padding-top: 5.6rem;
-    padding-left: 5.4rem;
-    padding-right: 4.1rem;
-    padding-bottom: 4.1rem;
+
+main {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 3rem;
+}
+
+.first-dev-first {
+    display: flex;
+    background-color: #4300D2;
+    width: 28px;
+}
+
+
+.first-dev-second{
+    background-color: #5200FF;
+    padding: 4rem 3.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    flex: 1;
+    color: #fff;
+    margin-left: auto;
+}
+
+.First-div {
+    display: flex;
+    width: 100%;
+    background-color: black;
 }
 
 
 h1 {
-    color: #fff;
+    /* color: #fff; */
     font-size: 2.9rem;
     font-family: Inter, sans-serif;
     text-align: start;
 }
 
 p {
-    color: #fff;
+    /* color: #fff; */
     font-size: 1.4rem;
 }
 
 .second-div {
-    margin-top: 3.6rem;
-    margin-left: 1.7rem;
-    margin-right: 2.2rem;
+    margin: 0 28px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -48,7 +69,7 @@ form {
     flex-direction: column;
 }
 button {    
-    margin-top: 5.6rem;
+    margin-top: 4rem;
     padding: 1.1rem 4.6rem;
     border-radius: 4px;
     border: none;
@@ -76,16 +97,42 @@ button {
 
 @media only  screen and (min-width: 850px) {
     main {
+        width: 100%;
         display: flex;
         flex-direction: row;
-        gap: 3rem;
+        gap: 0;
+        height: 100vh;
     }
     input {
         width: 100%;
         display: flex;
+        box-sizing: border-box;
     }
- 
     .second-div {
-        width: 20%;
+        /* flex: .6; */
+        margin-top: 90px;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        box-sizing: border-box;
     }
+    button {
+        margin-right:  0;
+    }
+    .First-div {
+        flex: 1;
+    }
+
+    .first-dev-first {
+        width: 10%;
+        height: 100%;
+        background-color: #4300D2;
+    
+    }
+
+    .first-dev-second {
+        padding-top: 90px;
+        padding-bottom: 0;
+        justify-content: unset;
+    }
+
 }
