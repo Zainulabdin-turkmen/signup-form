@@ -109,7 +109,7 @@ button {
         box-sizing: border-box;
     }
     .second-div {
-        /* flex: .6; */
+        flex: .6;
         margin-top: 90px;
         padding-left: 3.5rem;
         padding-right: 3.5rem;
